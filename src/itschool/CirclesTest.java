@@ -2,7 +2,7 @@ package itschool;
 
 import java.util.Arrays;
 
-public class Circles {
+public class CirclesTest {
     public Circle[] getCircles() {
         return circles;
     }
@@ -48,11 +48,11 @@ public class Circles {
 
     private Circle[] circles;
 
-    public Circles() {
+    public CirclesTest() {
         circles = new Circle[0];
     }
 
-    public Circles(int length) {
+    public CirclesTest(int length) {
         this.circles = new Circle[length];
     }
 }

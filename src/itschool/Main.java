@@ -3,7 +3,6 @@ package itschool;
 public class Main {
 
     public static void main(String[] args) {
-/*
         Circle circle;
 
         double side = -1;
@@ -16,30 +15,30 @@ public class Main {
 //        circle.setRadius(-5);
 //        System.out.println(circle);
 
-        Circles circles = new Circles(5);
-        circles.setCircleAt(0, circle);
+        CirclesTest circlesTest = new CirclesTest(5);
+        circlesTest.setCircleAt(0, circle);
 
 
-        for (int i = 0; i < circles.getCircles().length; i++)
-            System.out.println(circles.getCircles()[i]);
+        for (int i = 0; i < circlesTest.getCircles().length; i++)
+            System.out.println(circlesTest.getCircles()[i]);
 
         System.out.println("\n After resize:\n");
-        circles.resize(2);
+        circlesTest.resize(2);
         //circles.setCircleAt(1, new Circle(5));
-        for (int i = 0; i < circles.getCircles().length; i++)
-            System.out.println(circles.getCircles()[i]);
+        for (int i = 0; i < circlesTest.getCircles().length; i++)
+            System.out.println(circlesTest.getCircles()[i]);
 
-        circles.add(new Circle(12));
-        circles.add(new Circle(19));
+        circlesTest.add(new Circle(12));
+        circlesTest.add(new Circle(19));
 
         System.out.println("\nAfter add:");
-        for (int i = 0; i < circles.getCircles().length; i++)
-            System.out.println(circles.getCircles()[i]);
+        for (int i = 0; i < circlesTest.getCircles().length; i++)
+            System.out.println(circlesTest.getCircles()[i]);
 
-        System.out.println("\nCircles with square > average:" + circles.getAverageSquare());
-        for (int i = 0; i < circles.getCircles().length; i++)
-            if (circles.getCircles()[i].getSquare() > circles.getAverageSquare())
-                System.out.println(circles.getCircles()[i]);
+        System.out.println("\nCircles with square > average:" + circlesTest.getAverageSquare());
+        for (int i = 0; i < circlesTest.getCircles().length; i++)
+            if (circlesTest.getCircles()[i].getSquare() > circlesTest.getAverageSquare())
+                System.out.println(circlesTest.getCircles()[i]);
 
         Cylinder cylinder = new Cylinder(5, 4);
         System.out.println(cylinder);
@@ -52,7 +51,7 @@ public class Main {
         System.out.println("\nList of cylinders:");
         for (int i = 0; i < cylinders.list.size(); i++)
             System.out.println(cylinders.list.get(i));
-*/
+
 
     }
 }
