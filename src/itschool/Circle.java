@@ -31,6 +31,10 @@ public class Circle {
                 '}' : "Error circle: radius = " + getRadius();
     }
 
+    public double getDiameter() {
+        return radius * radius;
+    }
+
     public double getSquare()
     {
         return getRadius()*getRadius()*Math.PI;

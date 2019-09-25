@@ -3,6 +3,7 @@ package itschool;
 public class Main {
 
     public static void main(String[] args) {
+/*
         Circle circle;
 
         double side = -1;
@@ -51,7 +52,7 @@ public class Main {
         System.out.println("\nList of cylinders:");
         for (int i = 0; i < cylinders.list.size(); i++)
             System.out.println(cylinders.list.get(i));
-
+*/
 
     }
 }
